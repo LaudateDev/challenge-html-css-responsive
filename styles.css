@@ -3,26 +3,62 @@ body {
   margin: 0 auto;
   padding: 5%;
   font-family: "roboto", sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  font-size: 2rem;
+  padding: 0;
+}
+li{
+  padding-bottom: 0.6rem;
+  margin-left: -2rem;
+  font-size: 0.9rem;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 3rem;
 }
 .maps {
-  width: 15rem;
+  width: 12rem;
   height: auto;
+}
+.slogan {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+  color:#ff4326;
 }
 
 .container {
   padding: 2rem 5rem 1rem 5rem;
   background-color: #ffffff;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
+.vide{
+  width: 3.5rem;
+  background-color: #ff4326;
+  color: #ff4326;
+
+}
+input {
+background-color: rgb(240, 234, 234);
+  border: none;
+  padding: 0.2rem;
+} 
+.bold {
+  font-weight: 600;
+ margin-bottom: -1rem; }
 .lorem {
-  width: 20rem;
+  width: 15rem;
   font-size: small;
 }
 .footer {
@@ -31,6 +67,9 @@ h1 {
   padding: 0 5rem;
   display: flex;
   justify-content: space-between;
+}
+.follow {
+  padding-top: 3rem;
 }
 .infooter {
   display: flex;
@@ -44,6 +83,7 @@ h1 {
 .two {
   margin-top: 3rem;
   flex-direction: column;
+  align-items: normal;
 }
 .subscribe {
   display: flex;
@@ -58,4 +98,30 @@ button {
   color: white;
   border: #ff4326;
   cursor: pointer;
+}
+.active {
+display: inline-block;
+  border-radius: 50%;
+  padding: 0.3rem 0;
+  background-color: #ff4326;
+  width: 2rem;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.non-active {
+display: inline-block;
+  border-radius: 50%;
+border: black 1px solid;
+  padding: 0.3rem 0;
+  background-color: #ffffff;
+  width: 2rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.brand2 {
+ padding: 0;
 }
